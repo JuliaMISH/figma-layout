@@ -7,7 +7,10 @@ html {
 *::after {
     box-sizing: inherit;
 }
-
+img {
+    display: block;
+    max-width: 100%;
+}
 h1,
 h2,
 h3,
@@ -20,10 +23,11 @@ p {
 }
 
 body {
+    background: linear-gradient(rgb(243, 166, rgb(247, 246, 241)7, 7));
     margin: 0;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-    /* background: linear-gradient(to bottom right, rgb(232, 154, 8), grey); */
+    
 }
 
 .conteiner {
@@ -91,6 +95,7 @@ body {
     width: 90px;
     height: 90px;
     cursor: pointer;
+
 }
 
 .burger {
@@ -137,7 +142,7 @@ body {
     text-transform: uppercase;
     text-shadow: 3px 5px 6px #eab436;
 }
-
+/* Конец блока шапка*/
 /* o нас */
 .conteiner_about {
     max-width: 1110px;
@@ -146,6 +151,7 @@ body {
 }
 
 .about {
+    padding-top: 20px;
     min-height: 1080px;
     position: relative;
 }
@@ -157,7 +163,7 @@ body {
     opacity: .7;
     left: 50%;
     transform: translateX(-50%);
-    /* min-width: 450px; */
+    /* min-width: 390px; */
     min-height: 300px;
     padding: 30px 5px;
 }
@@ -217,3 +223,33 @@ body {
     }
 }
 
+/* конец блока о нас*/
+/* <!-- НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ --> */
+.text-h2 {
+}
+.text-h3 {
+}
+.text-p {
+}
+.project-h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    text-shadow: 3px 5px 6px #eab436;
+}
+.progect-h3 {
+}
+.progect-p {
+}
+.about__flex {
+    display: flex;
+}
+.about__flex-item {
+}
+.img {
+}
+.rectangle {
+}
+
+
+
+/* <!-- Конец блока НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ --> */
