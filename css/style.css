@@ -157,7 +157,7 @@ body {
     opacity: .7;
     left: 50%;
     transform: translateX(-50%);
-    min-width: 450px;
+    /* min-width: 450px; */
     min-height: 300px;
     padding: 30px 5px;
 }
