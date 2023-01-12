@@ -74,7 +74,7 @@ body {
 .header {
     min-height: 1030px;
     background-image: url(../img/layout.jpg);
-    max-width: 100%;
+    /* max-width: 100%; */
     background-repeat: no-repeat;
     block-size: cover;
 }
@@ -171,7 +171,7 @@ body {
 
 .about__grid_item {
     border: 1px solid black;
-    background-color: #eab436;
+    /* background-color: #eab436; */
     text-align: center;
     width: 190px;
 }
@@ -203,13 +203,13 @@ body {
 @media screen and (max-width: 1280px) {
     .about__grid {
         grid-template-columns: repeat(2, 1fr);
-        grid-column: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 768px) {
     .about__grid {
         grid-template-columns: repeat(1, 1fr);
-        grid-column: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
     }
 }
