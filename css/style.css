@@ -74,7 +74,7 @@ body {
 .header {
     min-height: 1030px;
     background-image: url(../img/layout.jpg);
-    /* max-width: 100%; */
+    max-width: 100%;
     background-repeat: no-repeat;
     block-size: cover;
 }
@@ -208,6 +208,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .info {
+        position: relative;
+    }
+    .about__grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 580px) {
     .info {
         position: relative;
     }
