@@ -133,7 +133,11 @@ body {
     text-transform: uppercase;
     text-shadow: 3px 5px 6px #eab436;
 }
-
+@media screen and (max-width: 300px) {
+    .h1 {
+        font-size: 46px;
+    }
+}
 .h4 {
     margin: 0 auto 17px;
     font-weight: 600;
@@ -323,6 +327,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 15px;
 }
 
 .request__flex-left {
@@ -412,21 +417,24 @@ body {
     }
 }
 /* <!-- Конец блока запрос --> */
+/* <!-- Блок сервис --> */
 .services {
     padding: 100px 0;
 }
 .section__h2 {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
     text-shadow: 3px 5px 6px #5d584d;
 }
 .services__h4 {
     color: #000;
+    text-shadow: 3px 5px 6px #5d584d;
     margin-bottom: 66px;
     text-align: center;
     margin: 0 auto;
     min-width: 172px;
     text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 .services__grid {
     display: grid;
@@ -445,11 +453,21 @@ body {
     width: 350px;
 }
 
-.text-h4 {
+@media screen and (max-width: 1280px) {
+    .services {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .services__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .services__grid-item {
+        width: 100%;
+    }
 }
-.services__h4 {
+@media screen and (max-width: 768px) {
+    .services__grid {
+        grid-template-columns: repeat(1, 1fr);
 }
-
-/* <!-- Чем мы занимаемся -->
-
-   <!-- Конец блока чем мы занимаемся --> */
+/* <!-- Конец блока сервис--> */
