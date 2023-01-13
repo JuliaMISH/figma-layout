@@ -291,7 +291,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .about {
-        padding-top: 10px;
+        /* padding-top: 10px; */
         padding-bottom: 80px;
     }
 
@@ -308,6 +308,7 @@ body {
     .about__flex-item:last-child {
         margin-bottom: 0;
     }
+
 }
 
 /* <!-- Конец блока НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ --> */
@@ -375,6 +376,9 @@ body {
         margin-right: 15px;
         padding-left: 15px;
     }
+    .request__h5 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -383,7 +387,11 @@ body {
         padding-left: 15px;
     }
     .request__flex {
+        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
+        flex-direction: row-reverse;
     }
 }
+
 /* <!-- Конец блока запрос --> */
