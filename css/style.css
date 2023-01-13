@@ -396,5 +396,22 @@ body {
         text-align: center;
     }
 }
-
+@media screen and (max-width: 350px) {
+    /* .request {
+        margin-right: 15px;
+        padding-left: 15px;
+    } */
+    .request__h4 {
+        font-size: 54px;
+    }
+    .request__flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+}
 /* <!-- Конец блока запрос --> */
+/* <!-- Чем мы занимаемся -->
+
+   <!-- Конец блока чем мы занимаемся --> */
