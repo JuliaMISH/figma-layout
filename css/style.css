@@ -396,7 +396,7 @@ body {
         text-align: center;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 300px) {
     /* .request {
         margin-right: 15px;
         padding-left: 15px;
@@ -412,6 +412,44 @@ body {
     }
 }
 /* <!-- Конец блока запрос --> */
+.services {
+    padding: 100px 0;
+}
+.section__h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    text-shadow: 3px 5px 6px #5d584d;
+}
+.services__h4 {
+    color: #000;
+    margin-bottom: 66px;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 172px;
+    text-transform: uppercase;
+}
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+.services__icon {
+    margin: 0 auto 10px;
+}
+.services__grid-item {
+    padding: 59px 0;
+    border: 1px solid black;
+    background-color: #dab45b;
+    width: 350px;
+}
+
+.text-h4 {
+}
+.services__h4 {
+}
+
 /* <!-- Чем мы занимаемся -->
 
    <!-- Конец блока чем мы занимаемся --> */
