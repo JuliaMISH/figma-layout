@@ -328,9 +328,9 @@ body {
 .request__flex-left {
     padding-left: 15px;
 }
-.request__flex-right {
-    margin-right: 15px;
-}
+/* .request__flex-right {
+    margin-right: 50px;
+} */
 .request__h4 {
     font-weight: 500;
     font-size: 54px;
@@ -373,7 +373,7 @@ body {
 }
 @media screen and (max-width: 1280px) {
     .request {
-        margin-right: 15px;
+        /* margin-right: 15px; */
         padding-left: 15px;
     }
     .request__h5 {
@@ -382,15 +382,18 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .request {
+    /* .request {
         margin-right: 15px;
         padding-left: 15px;
-    }
+    } */
     .request__flex {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: row-reverse;
+    }
+    .request__h5 {
+        text-align: center;
     }
 }
 
