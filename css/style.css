@@ -25,7 +25,7 @@ p {
 }
 
 body {
-    background: linear-gradient(rgb(238, 186, 81), rgb(236, 236, 233));
+    background: linear-gradient(rgb(249, 188, 109), rgb(236, 236, 233));
     margin: 0;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -210,13 +210,14 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
-.about__grid {
+    .about__grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-.header_title {
+
+    .header_title {
         padding: 30px 15px 0px 15px;
-}
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -245,7 +246,7 @@ body {
 .project-h2 {
     text-align: center;
     margin-bottom: 60px;
-    text-shadow: 3px 5px 6px #eab436;
+    text-shadow: 3px 5px 6px #5d584d;
 }
 
 .about__flex {
@@ -284,7 +285,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .about {
-        padding-top: 90px;
+        padding-top: 10px;
         padding-bottom: 80px;
     }
 
@@ -304,3 +305,79 @@ body {
 }
 
 /* <!-- Конец блока НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ --> */
+/* <!-- Блок запрос --> */
+.request {
+    background: linear-gradient(rgb(86, 86, 86), white);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.request__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.request__flex-left {
+    padding-left: 15px;
+}
+.request__flex-right {
+    margin-right: 15px;
+}
+.request__h4 {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 95px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 6px #eab436;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 6px #eab436;
+}
+.request__h5 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 6px #eab436;
+}
+.request__btn {
+    border: 1px solid black;
+    background-color: #dab45b;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    /* font-weight: bold; */
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05px;
+    padding: 14px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 1280px) {
+    .request {
+        margin-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .request {
+        margin-right: 15px;
+        padding-left: 15px;
+    }
+    .request__flex {
+        flex-wrap: wrap;
+    }
+}
+/* <!-- Конец блока запрос --> */
