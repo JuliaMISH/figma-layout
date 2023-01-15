@@ -156,6 +156,7 @@ body {
     max-width: 1110px;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 10px;
 }
 
 .about {
@@ -290,7 +291,7 @@ body {
 
 @media screen and (max-width: 1280px) {
     .about {
-        padding: 450px 15px 110px 15px;
+        padding: 200px 15px 110px 15px;
     }
 }
 
@@ -349,8 +350,6 @@ body {
     text-transform: uppercase;
     text-shadow: 3px 5px 6px #eab436;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: 3px 5px 6px #eab436;
 }
 .request__h5 {
     font-weight: 600;
@@ -540,10 +539,80 @@ body {
     margin-bottom: 30px;
     /* max-width: 730px; */
 }
-.question_h3.open::before {
-    content: "u";
+.question_h3.open::before,
+.question_h3.close::before {
+    content: "";
     display: inline-block;
-    /* width: 15px;
-    height: 15px; */
-    background-image:url(../img/icons8-шеврон-вправо-50.png);
+    width: 20px;
+    height: 20px;
+    background-image:url(../img/icons8-шеврон-вправо-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    cursor: pointer;
 }
+.question_h3.open::before {
+    transform: rotate(-90deg);
+}
+.question_h3.close + .question_p {
+    display: none;
+}
+@media screen and (max-width: 1280px) {
+    .question {
+        padding: 100px 15px;
+    }
+}    
+/* <!-- Конец блока вопросы --> */
+/* <!-- Блок наши партнеры --> */
+.partners {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: linear-gradient(rgb(86, 86, 86), white);
+}
+.conteiner {
+}
+.text-h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 95px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 6px #eab436;
+    letter-spacing: 0.02em;
+}
+/* .parthers_h2 {
+    text-align: center;
+} */
+.partner__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.partners_item {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    max-width: 170px;
+}
+.partners__item:nth-child(4n) {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+@media screen and (max-width: 1280px) {
+    .partner__flex {
+        justify-content: center;
+    }
+    .partners_item {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .partners_item:nth-child(5n) {
+        margin-right: 40px;
+    }
+}
+
