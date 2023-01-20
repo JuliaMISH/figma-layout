@@ -291,14 +291,14 @@ body {
 
 @media screen and (max-width: 1280px) {
     .about {
-        padding: 100px 15px 110px 15px;
+        padding: 60px 15px 110px 15px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about {
         /* padding-top: 10px; */
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
 
     .about__flex {
@@ -566,13 +566,13 @@ body {
 }
 @media screen and (max-width: 1280px) {
     .question {
-        padding: 100px 20px;
+        padding: 70px 20px;
     }
 }    
 /* <!-- Конец блока вопросы --> */
 /* <!-- Блок наши партнеры --> */
 .partners {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 70px;
     background: linear-gradient(rgb(86, 86, 86), white);
 }
@@ -623,7 +623,48 @@ body {
     } */
     .text-h2_partners {
         font-size: 34px;
+    
     }
-
 }
 
+.reviews {
+    padding: 30px 0px 30px;
+}
+.reviews_h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-shadow: 3px 5px 6px #eab436;
+
+}
+.reviews__grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.reviews__grid-item {
+}
+.reviews__card {
+    background-color: #dfc78e;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.reviews__quotes {
+    font-size: 96px;
+    margin-bottom: -55px;
+}
+.reviews__author-accent {
+    color: #4d3b11;
+}
+@media screen and (max-width: 1280px) {
+    .reviews {
+        padding: 50px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}  
