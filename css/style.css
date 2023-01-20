@@ -340,7 +340,7 @@ body {
 }
 
 .request__flex-left {
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 .request__flex-right {
     /* margin-right: 15px; */
