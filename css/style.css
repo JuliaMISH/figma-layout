@@ -336,7 +336,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 15px;
+    /* padding-right: 15px; */
 }
 
 .request__flex-left {
@@ -391,7 +391,7 @@ body {
     }
     .request {
         /* margin-right: 15px; */
-        padding-left: 15px;
+        /* padding-left: 15px; */
     }
     .request__h5 {
         text-align: center;
