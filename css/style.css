@@ -231,7 +231,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .adout {
-        min-height: 400px;
+        min-height: 200px;
     }    
     .info {
         position: relative;
@@ -245,6 +245,7 @@ body {
     .header_title {
         padding: 30px 15px 0px 15px;
     }
+
 }
 
 /* конец блока о нас*/
@@ -291,7 +292,7 @@ body {
 
 @media screen and (max-width: 1280px) {
     .about {
-        padding: 60px 15px 110px 15px;
+        padding: 0px 15px 110px 15px;
     }
 }
 
@@ -314,6 +315,12 @@ body {
     .about__flex-item:last-child {
         margin-bottom: 0;
     }
+    .about {
+        padding: 0px 15px 90px 15px;
+    }
+    .project-h2 {
+        margin-top: -190px;
+    }
 
 }
 
@@ -335,9 +342,10 @@ body {
 .request__flex-left {
     padding-left: 15px;
 }
-/* .request__flex-right {
-    margin-right: 50px;
-} */
+.request__flex-right {
+    margin-right: 15px;
+    padding-top: 40px;
+}
 .request__h4 {
     font-weight: 500;
     font-size: 54px;
@@ -375,6 +383,7 @@ body {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    flex-direction: row;
 }
 @media screen and (max-width: 1280px) {
     .request__h4 {
@@ -663,8 +672,14 @@ body {
     .reviews {
         padding: 50px 0px;
     }
+
+    .reviews__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+    .reviews__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }  
