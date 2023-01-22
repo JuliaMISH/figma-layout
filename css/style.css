@@ -504,6 +504,11 @@ body {
     padding: 0px 0px 10px 0px;
 }
 
+.contacts_h3_info a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .contacts_h3-gray {
     color: var(--grey-color);
     margin-bottom: 5px;
