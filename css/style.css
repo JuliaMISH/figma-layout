@@ -1328,8 +1328,8 @@ nav ul a.btn-floating>.material-icons {
     -webkit-tap-highlight-color: transparent;
     vertical-align: middle;
     z-index: 1;
-    -webkit-transition: .3s ease-out;
-    transition: .3s ease-out;
+    -webkit-transition: 1.3s  ease-out;
+    transition: 1.3s  ease-out;
   }
   
   .waves-effect .waves-ripple {
