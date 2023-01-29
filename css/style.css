@@ -1341,7 +1341,7 @@ nav ul a.btn-floating>.material-icons {
     margin-left: -10px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.9);
-    -webkit-transition: all 0.50s ease-out;
+    -webkit-transition: all 1.50s ease-out;
     transition: all 0.7s ease-out;
     -webkit-transition-property: opacity, -webkit-transform;
     transition-property: opacity, -webkit-transform;
