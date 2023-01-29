@@ -1300,13 +1300,19 @@ nav ul a.btn-floating>.material-icons {
 }
 
 .h6 {
-    margin: 0 auto 17px;
+    margin: 0 auto 10px;
     font-weight: 600;
-    max-width: 734;
     font-size: 21px;
     line-height: 27px;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 3px 5px 6px #eab436;
+}
 
+.h7 {
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+    margin: 0 auto 17px;
+    text-shadow: 3px 5px 6px #eab436;
 }
