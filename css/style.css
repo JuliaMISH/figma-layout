@@ -645,6 +645,7 @@ body {
     .footer {
         padding: 30px 15px;
     }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -688,6 +689,7 @@ body {
     .about {
         /* padding-top: 10px; */
         padding-bottom: 40px;
+        padding: 0px 15px 90px 15px;
     }
 
     .about__flex {
@@ -704,9 +706,6 @@ body {
         margin-bottom: 0;
     }
 
-    .about {
-        padding: 0px 15px 90px 15px;
-    }
 
     .project-h2 {
         margin-top: -190px;
@@ -1309,10 +1308,51 @@ nav ul a.btn-floating>.material-icons {
     text-shadow: 3px 5px 6px #eab436;
 }
 
-.h7 {
-    text-align: center;
-    font-size: 21px;
-    line-height: 21px;
-    margin: 0 auto 17px;
-    text-shadow: 3px 5px 6px #eab436;
-}
+.waves-effect.waves-green .waves-ripple {
+    background-color: rgba(76, 175, 80, 0.7);
+  }
+
+  .waves-effect.waves-purple .waves-ripple {
+    background-color: rgba(235, 39, 52, 0.7);
+  }
+  
+  .waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+  }
+  
+  .waves-effect .waves-ripple {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    pointer-events: none;
+  } 
+  
+  .agree {
+    padding-right: 10px;
+
+  }
