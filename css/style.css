@@ -284,6 +284,7 @@ body {
     padding-right: 10px;
 
 }
+
 .request__btn {
     text-decoration: none;
     color: #0d0c0d;
@@ -1310,29 +1311,29 @@ nav ul a.btn-floating>.material-icons {
 
 .waves-effect.waves-green .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7);
-  }
+}
 
-  .waves-effect.waves-purple .waves-ripple {
+.waves-effect.waves-purple .waves-ripple {
     background-color: rgba(235, 39, 52, 0.7);
-  }
-  
-  .waves-effect {
+}
+
+.waves-effect {
     position: relative;
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
     vertical-align: middle;
     z-index: 1;
-    -webkit-transition: 1.3s  ease-out;
-    transition: 1.3s  ease-out;
-  }
-  
-  .waves-effect .waves-ripple {
+    -webkit-transition: 1.3s ease-out;
+    transition: 1.3s ease-out;
+}
+
+.waves-effect .waves-ripple {
     position: absolute;
     border-radius: 50%;
     width: 20px;
@@ -1348,11 +1349,38 @@ nav ul a.btn-floating>.material-icons {
     transition-property: transform, opacity;
     transition-property: transform, opacity, -webkit-transform;
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     pointer-events: none;
-  } 
-  
-  .agree {
+}
+
+.agree {
     padding-right: 10px;
 
-  }
+}
+
+/* Конец блока модальное окно */
+
+/*Галлерея портфолио  */
+.materialboxed {
+    display: block;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    position: relative;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
+    -webkit-backface-visibility: hidden;
+}
+
+.materialboxed:hover:not(.active) {
+    opacity: .8;
+}
+
+.materialboxed.active {
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+}
+
+.carousel.scrolling .carousel-item .materialboxed,
+.carousel .carousel-item:not(.active) .materialboxed {
+    pointer-events: none;
+}
